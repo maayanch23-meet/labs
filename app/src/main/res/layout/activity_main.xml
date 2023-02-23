@@ -27,8 +27,7 @@
         android:layout_width="147dp"
         android:layout_height="wrap_content"
         android:hint="Email"
-        android:inputType="text"
-        />
+        android:inputType="text" />
 
     <Button
         android:id="@+id/signupbutton"
@@ -36,15 +35,13 @@
         android:layout_height="64dp"
         android:text="SignUp"
         tools:layout_editor_absoluteX="243dp"
-        tools:layout_editor_absoluteY="373dp"
-        android:background="@drawable/button_design"/>
+        tools:layout_editor_absoluteY="373dp" />
 
     <Button
         android:id="@+id/signinbutton"
         android:layout_width="120dp"
         android:layout_height="66dp"
-        android:text="SignIn"
-        android:background="@drawable/button_design"/>
+        android:text="SignIn" />
 
 
 </LinearLayout>

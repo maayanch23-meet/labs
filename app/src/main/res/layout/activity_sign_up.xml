@@ -46,6 +46,6 @@
         android:layout_width="211dp"
         android:layout_height="wrap_content"
         android:text="Submit"
-        android:background="@drawable/button_design"/>
+        />
 
 </LinearLayout>

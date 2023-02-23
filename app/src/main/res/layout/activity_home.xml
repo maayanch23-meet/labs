@@ -10,8 +10,13 @@
 
     <TextView
         android:id="@+id/welcome"
-        android:layout_width="229dp"
-        android:layout_height="105dp"
-        android:text="Welcome to our App!"
-        android:textSize="40sp" />
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="35sp" />
+
+    <ListView
+        android:id="@+id/users_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
