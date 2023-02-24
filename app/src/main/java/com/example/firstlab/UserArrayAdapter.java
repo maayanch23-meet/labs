@@ -35,7 +35,7 @@ public class UserArrayAdapter extends ArrayAdapter<User> {
             TextView name = convertView.findViewById(R.id.namerow);
             name.setText(user.getName());
             TextView email = convertView.findViewById(R.id.emailrow);
-            name.setText(user.getEmail());
+            email.setText(user.getEmail());
         }
 
         return convertView;
